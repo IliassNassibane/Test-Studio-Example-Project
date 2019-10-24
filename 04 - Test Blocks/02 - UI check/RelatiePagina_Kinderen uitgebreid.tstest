@@ -1,0 +1,2145 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "e51d00a0-4001-44a8-92f7-2f81bf826771",
+            "Description": "Verify element 'NR_Kinderen_AantalKinderenVeld' 'is' visible.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+              "__value": {
+                "Verification": {
+                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+                  "__value": {
+                    "IsVisible": true,
+                    "DataBindVariableName": null,
+                    "Timeout": 30000,
+                    "CheckInterval": 500,
+                    "EnsureStateIsCurrent": false,
+                    "Pause": 0,
+                    "WaitOnElementsTimeout": 30000,
+                    "SearchByImageFirst": 0,
+                    "UseStepWaitOnElementsTimout": false,
+                    "WaitOnElements": true,
+                    "RunsAgainstVersion": "",
+                    "Constraints": {
+                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                      "__value": {
+                        "ConstraintValues": {}
+                      }
+                    },
+                    "Elements": {
+                      "verifyTarget": {
+                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                        "__value": {
+                          "Name": "verifyTarget",
+                          "Region": null,
+                          "Page": {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                            "__value": {
+                              "Path": "http://interntestaccept.cts/",
+                              "Query": "",
+                              "BaseUrl": "",
+                              "EquivalentUrls": [],
+                              "Fragment": "",
+                              "Title": "Intern - testaccept",
+                              "CompareMode": 2,
+                              "AlwaysUseTitleInCompare": false,
+                              "FriendlyName": "InternTestAccept"
+                            }
+                          },
+                          "Frame": null,
+                          "FindExpression": {
+                            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                            "__value": {
+                              "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                              "NodeKind": 4,
+                              "TechnologyType": 1,
+                              "Name": "NR_Kinderen_AantalKinderenVeld",
+                              "FindExpressions": [
+                                {
+                                  "Key": 1,
+                                  "Value": {
+                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                    "__value": {
+                                      "Clauses": [
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "propcode=24"
+                                          }
+                                        }
+                                      ],
+                                      "Constraints": [],
+                                      "ChainStops": []
+                                    }
+                                  }
+                                }
+                              ],
+                              "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                              "ImageSearchClauses": [],
+                              "DataBindingExpressions": {}
+                            }
+                          },
+                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                          "IsIndependent": false,
+                          "DomStateKey": "",
+                          "TechnologyType": 1,
+                          "Version": 200
+                        }
+                      }
+                    },
+                    "StepType": 2,
+                    "LogMessageOnFailure": "",
+                    "EditorType": "",
+                    "DataBindingExpressions": {}
+                  }
+                },
+                "Branches": {
+                  "1": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": [
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "7efcf1dc-aa1f-4174-838f-6c2188c5e9f7",
+                              "Description": "Verify element 'NR_Kinderen_AantalKinderenTitle' 'is' visible.",
+                              "CustomDescription": "Is de titel zichtbaar voor het \"Aantal kinderen\"-veld?",
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+                                "__value": {
+                                  "IsVisible": true,
+                                  "DataBindVariableName": null,
+                                  "Timeout": 30000,
+                                  "CheckInterval": 500,
+                                  "EnsureStateIsCurrent": false,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "SearchByImageFirst": 0,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "verifyTarget": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "verifyTarget",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "http://interntestaccept.cts/",
+                                            "Query": "",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Intern - testaccept",
+                                            "CompareMode": 2,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "InternTestAccept"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "AJHqsaHpAeVsNXk+fc2DrTxQXXQ=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "NR_Kinderen_AantalKinderenTitle",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "class=property_24"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "tagname=div"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "textcontent=Aantal kinderen"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "innertext=Aantal kinderen"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": [
+                                                      1
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+                                            "ImageSearchClauses": [],
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 2,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 1,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": true,
+                              "StepImageKey": "RelatiePagina_Kinderen uitgebreid4k32efk2.tvp",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "5417251e-5697-442f-83af-cefaa9efcded",
+                              "Description": "Verify 'TextContent' 'Contains' '' on 'NR_Kinderen_AantalKinderenVeld'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+                                "__value": {
+                                  "Verification": {
+                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+                                    "__value": {
+                                      "CompareType": 2,
+                                      "SegmentType": 3,
+                                      "ExpectedString": "",
+                                      "DataBindVariableName": null,
+                                      "Timeout": 30000,
+                                      "CheckInterval": 500,
+                                      "EnsureStateIsCurrent": false,
+                                      "Pause": 0,
+                                      "WaitOnElementsTimeout": 30000,
+                                      "SearchByImageFirst": 0,
+                                      "UseStepWaitOnElementsTimout": false,
+                                      "WaitOnElements": true,
+                                      "RunsAgainstVersion": "",
+                                      "Constraints": {
+                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                        "__value": {
+                                          "ConstraintValues": {}
+                                        }
+                                      },
+                                      "Elements": {
+                                        "textTarget": {
+                                          "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                          "__value": {
+                                            "Name": "textTarget",
+                                            "Region": null,
+                                            "Page": {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                              "__value": {
+                                                "Path": "http://interntestaccept.cts/",
+                                                "Query": "",
+                                                "BaseUrl": "",
+                                                "EquivalentUrls": [],
+                                                "Fragment": "",
+                                                "Title": "Intern - testaccept",
+                                                "CompareMode": 2,
+                                                "AlwaysUseTitleInCompare": false,
+                                                "FriendlyName": "InternTestAccept"
+                                              }
+                                            },
+                                            "Frame": null,
+                                            "FindExpression": {
+                                              "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                              "__value": {
+                                                "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                                                "NodeKind": 4,
+                                                "TechnologyType": 1,
+                                                "Name": "NR_Kinderen_AantalKinderenVeld",
+                                                "FindExpressions": [
+                                                  {
+                                                    "Key": 1,
+                                                    "Value": {
+                                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                      "__value": {
+                                                        "Clauses": [
+                                                          {
+                                                            "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                            "__value": {
+                                                              "Clause": "propcode=24"
+                                                            }
+                                                          }
+                                                        ],
+                                                        "Constraints": [],
+                                                        "ChainStops": []
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                                                "ImageSearchClauses": [],
+                                                "DataBindingExpressions": {}
+                                              }
+                                            },
+                                            "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                                            "IsIndependent": false,
+                                            "DomStateKey": "",
+                                            "TechnologyType": 1,
+                                            "Version": 200
+                                          }
+                                        }
+                                      },
+                                      "StepType": 2,
+                                      "LogMessageOnFailure": "",
+                                      "EditorType": "",
+                                      "DataBindingExpressions": {}
+                                    }
+                                  },
+                                  "Branches": {
+                                    "1": {
+                                      "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                      "__value": {
+                                        "StepList": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                          "__value": [
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "c324e61a-8afd-4fae-8fba-11384b459a2c",
+                                                "Description": "Execute test 'RelatiePagina_Kind 1'",
+                                                "CustomDescription": "Controle op \"Kind 1\"",
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+                                                  "__value": {
+                                                    "WaitOnElementsTimeout": 0,
+                                                    "UseStepWaitOnElementsTimout": false,
+                                                    "WaitOnElements": false,
+                                                    "SearchByImageFirst": 0,
+                                                    "TestName": "RelatiePagina_Kind 1",
+                                                    "TestPath": "04 - Test Blocks\\02 - UI check\\RelatiePagina_Kind 1.tstest",
+                                                    "TestUniqueId": "cd56768f-b03f-4fdb-a6f9-b0ae8ab1ee36",
+                                                    "Pause": 0,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {},
+                                                    "StepType": 4,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 1,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": true,
+                                                "StepImageKey": "RelatiePagina_Kinderen uitgebreidardlr0tr.to4",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            },
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "f0f4459c-54d0-4d5a-a7db-ec953947a786",
+                                                "Description": "Execute test 'RelatiePagina_Kind 2'",
+                                                "CustomDescription": "Controle op \"Kind 2\"",
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+                                                  "__value": {
+                                                    "WaitOnElementsTimeout": 0,
+                                                    "UseStepWaitOnElementsTimout": false,
+                                                    "WaitOnElements": false,
+                                                    "SearchByImageFirst": 0,
+                                                    "TestName": "RelatiePagina_Kind 2",
+                                                    "TestPath": "04 - Test Blocks\\02 - UI check\\RelatiePagina_Kind 2.tstest",
+                                                    "TestUniqueId": "cd56768f-b03f-4fdb-a6f9-b0ae8ab1ee36",
+                                                    "Pause": 0,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {},
+                                                    "StepType": 4,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 2,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": true,
+                                                "StepImageKey": "RelatiePagina_Kinderen uitgebreidsckahr3a.y1s",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            },
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "14d4bd03-c0ce-4f13-800b-59367a6bd3a8",
+                                                "Description": "Execute test 'RelatiePagina_Kind 3'",
+                                                "CustomDescription": "Controle op \"Kind 3\"",
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+                                                  "__value": {
+                                                    "WaitOnElementsTimeout": 0,
+                                                    "UseStepWaitOnElementsTimout": false,
+                                                    "WaitOnElements": false,
+                                                    "SearchByImageFirst": 0,
+                                                    "TestName": "RelatiePagina_Kind 3",
+                                                    "TestPath": "04 - Test Blocks\\02 - UI check\\RelatiePagina_Kind 3.tstest",
+                                                    "TestUniqueId": "cd56768f-b03f-4fdb-a6f9-b0ae8ab1ee36",
+                                                    "Pause": 0,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {},
+                                                    "StepType": 4,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 3,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": true,
+                                                "StepImageKey": "RelatiePagina_Kinderen uitgebreidz0zwaszi.glb",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            },
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "5d3a57a2-dbcc-451f-9cc0-bb006add4d2e",
+                                                "Description": "Execute test 'RelatiePagina_Kind 4'",
+                                                "CustomDescription": "Controle op \"Kind 4\"",
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+                                                  "__value": {
+                                                    "WaitOnElementsTimeout": 0,
+                                                    "UseStepWaitOnElementsTimout": false,
+                                                    "WaitOnElements": false,
+                                                    "SearchByImageFirst": 0,
+                                                    "TestName": "RelatiePagina_Kind 4",
+                                                    "TestPath": "04 - Test Blocks\\02 - UI check\\RelatiePagina_Kind 4.tstest",
+                                                    "TestUniqueId": "cd56768f-b03f-4fdb-a6f9-b0ae8ab1ee36",
+                                                    "Pause": 0,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {},
+                                                    "StepType": 4,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 4,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": true,
+                                                "StepImageKey": "RelatiePagina_Kinderen uitgebreid5vnlgwwt.dqn",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            },
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "215b3220-a4d2-4bc4-aa36-cc745a9e1e7e",
+                                                "Description": "Execute test 'RelatiePagina_Kind 5'",
+                                                "CustomDescription": "Controle op \"Kind 5\"",
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+                                                  "__value": {
+                                                    "WaitOnElementsTimeout": 0,
+                                                    "UseStepWaitOnElementsTimout": false,
+                                                    "WaitOnElements": false,
+                                                    "SearchByImageFirst": 0,
+                                                    "TestName": "RelatiePagina_Kind 5",
+                                                    "TestPath": "04 - Test Blocks\\02 - UI check\\RelatiePagina_Kind 5.tstest",
+                                                    "TestUniqueId": "cd56768f-b03f-4fdb-a6f9-b0ae8ab1ee36",
+                                                    "Pause": 0,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {},
+                                                    "StepType": 4,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 5,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": true,
+                                                "StepImageKey": "RelatiePagina_Kinderen uitgebreidxqyqzuhx.d4r",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        "Description": "IF ({0})",
+                                        "CustomDescription": "Als het \"Aantal kinderen\"-veld leeg is...",
+                                        "Order": 0,
+                                        "Branch": 1,
+                                        "Visible": true
+                                      }
+                                    },
+                                    "0": {
+                                      "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                      "__value": {
+                                        "StepList": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                          "__value": [
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "cec0dfc6-7208-462e-b202-8bb741a7f309",
+                                                "Description": "Verify 'TextContent' 'Contains' '5' on 'NR_Kinderen_AantalKinderenVeld'",
+                                                "CustomDescription": null,
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+                                                  "__value": {
+                                                    "Verification": {
+                                                      "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+                                                      "__value": {
+                                                        "CompareType": 2,
+                                                        "SegmentType": 3,
+                                                        "ExpectedString": "5",
+                                                        "DataBindVariableName": null,
+                                                        "Timeout": 30000,
+                                                        "CheckInterval": 500,
+                                                        "EnsureStateIsCurrent": false,
+                                                        "Pause": 0,
+                                                        "WaitOnElementsTimeout": 30000,
+                                                        "SearchByImageFirst": 0,
+                                                        "UseStepWaitOnElementsTimout": false,
+                                                        "WaitOnElements": true,
+                                                        "RunsAgainstVersion": "",
+                                                        "Constraints": {
+                                                          "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                          "__value": {
+                                                            "ConstraintValues": {}
+                                                          }
+                                                        },
+                                                        "Elements": {
+                                                          "textTarget": {
+                                                            "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                            "__value": {
+                                                              "Name": "textTarget",
+                                                              "Region": null,
+                                                              "Page": {
+                                                                "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                                "__value": {
+                                                                  "Path": "http://interntestaccept.cts/",
+                                                                  "Query": "",
+                                                                  "BaseUrl": "",
+                                                                  "EquivalentUrls": [],
+                                                                  "Fragment": "",
+                                                                  "Title": "Intern - testaccept",
+                                                                  "CompareMode": 2,
+                                                                  "AlwaysUseTitleInCompare": false,
+                                                                  "FriendlyName": "InternTestAccept"
+                                                                }
+                                                              },
+                                                              "Frame": null,
+                                                              "FindExpression": {
+                                                                "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                                                "__value": {
+                                                                  "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                                                                  "NodeKind": 4,
+                                                                  "TechnologyType": 1,
+                                                                  "Name": "NR_Kinderen_AantalKinderenVeld",
+                                                                  "FindExpressions": [
+                                                                    {
+                                                                      "Key": 1,
+                                                                      "Value": {
+                                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                        "__value": {
+                                                                          "Clauses": [
+                                                                            {
+                                                                              "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                              "__value": {
+                                                                                "Clause": "propcode=24"
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "Constraints": [],
+                                                                          "ChainStops": []
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  ],
+                                                                  "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                                                                  "ImageSearchClauses": [],
+                                                                  "DataBindingExpressions": {}
+                                                                }
+                                                              },
+                                                              "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                                                              "IsIndependent": false,
+                                                              "DomStateKey": "",
+                                                              "TechnologyType": 1,
+                                                              "Version": 200
+                                                            }
+                                                          }
+                                                        },
+                                                        "StepType": 2,
+                                                        "LogMessageOnFailure": "",
+                                                        "EditorType": "",
+                                                        "DataBindingExpressions": {}
+                                                      }
+                                                    },
+                                                    "Branches": {
+                                                      "1": {
+                                                        "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                                        "__value": {
+                                                          "StepList": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                                            "__value": [
+                                                              {
+                                                                "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                                                "__value": {
+                                                                  "Runtime ID": "39c407a4-94fc-4a10-8a2e-101d230015a5",
+                                                                  "Description": "Execute test 'RelatiePagina_Kind 1'",
+                                                                  "CustomDescription": "Controle op \"Kind 1\"",
+                                                                  "Step": {
+                                                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+                                                                    "__value": {
+                                                                      "WaitOnElementsTimeout": 0,
+                                                                      "UseStepWaitOnElementsTimout": false,
+                                                                      "WaitOnElements": false,
+                                                                      "SearchByImageFirst": 0,
+                                                                      "TestName": "RelatiePagina_Kind 1",
+                                                                      "TestPath": "04 - Test Blocks\\02 - UI check\\RelatiePagina_Kind 1.tstest",
+                                                                      "TestUniqueId": "cd56768f-b03f-4fdb-a6f9-b0ae8ab1ee36",
+                                                                      "Pause": 0,
+                                                                      "RunsAgainstVersion": "",
+                                                                      "Constraints": {
+                                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                                        "__value": {
+                                                                          "ConstraintValues": {}
+                                                                        }
+                                                                      },
+                                                                      "Elements": {},
+                                                                      "StepType": 4,
+                                                                      "LogMessageOnFailure": "",
+                                                                      "EditorType": "",
+                                                                      "DataBindingExpressions": {}
+                                                                    }
+                                                                  },
+                                                                  "Enabled": true,
+                                                                  "Order": 1,
+                                                                  "Id": "",
+                                                                  "StepState": 0,
+                                                                  "ContinueOnFailure": true,
+                                                                  "StepImageKey": "RelatiePagina_Kinderen uitgebreidvqfp1pu5.plf",
+                                                                  "QcId": 0,
+                                                                  "QcVersionStamp": 0,
+                                                                  "Version": 200
+                                                                }
+                                                              },
+                                                              {
+                                                                "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                                                "__value": {
+                                                                  "Runtime ID": "5294a4c7-1fce-4429-b0d0-10cb52b0ecdf",
+                                                                  "Description": "Execute test 'RelatiePagina_Kind 1.tstest'",
+                                                                  "CustomDescription": "Controle op \"Kind 2\"",
+                                                                  "Step": {
+                                                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+                                                                    "__value": {
+                                                                      "WaitOnElementsTimeout": 0,
+                                                                      "UseStepWaitOnElementsTimout": false,
+                                                                      "WaitOnElements": false,
+                                                                      "SearchByImageFirst": 0,
+                                                                      "TestName": "RelatiePagina_Kind 1",
+                                                                      "TestPath": "04 - Test Blocks\\02 - UI check\\RelatiePagina_Kind 1.tstest",
+                                                                      "TestUniqueId": "cd56768f-b03f-4fdb-a6f9-b0ae8ab1ee36",
+                                                                      "Pause": 0,
+                                                                      "RunsAgainstVersion": "",
+                                                                      "Constraints": {
+                                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                                        "__value": {
+                                                                          "ConstraintValues": {}
+                                                                        }
+                                                                      },
+                                                                      "Elements": {},
+                                                                      "StepType": 4,
+                                                                      "LogMessageOnFailure": "",
+                                                                      "EditorType": "",
+                                                                      "DataBindingExpressions": {}
+                                                                    }
+                                                                  },
+                                                                  "Enabled": true,
+                                                                  "Order": 2,
+                                                                  "Id": "",
+                                                                  "StepState": 0,
+                                                                  "ContinueOnFailure": true,
+                                                                  "StepImageKey": "RelatiePagina_Kinderen uitgebreidxdbe0pqh.1bk",
+                                                                  "QcId": 0,
+                                                                  "QcVersionStamp": 0,
+                                                                  "Version": 200
+                                                                }
+                                                              },
+                                                              {
+                                                                "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                                                "__value": {
+                                                                  "Runtime ID": "94be8f0a-8843-41fb-8df1-56ff2363e8cc",
+                                                                  "Description": "Execute test 'RelatiePagina_Kind 1.tstest'",
+                                                                  "CustomDescription": "Controle op \"Kind 3\"",
+                                                                  "Step": {
+                                                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+                                                                    "__value": {
+                                                                      "WaitOnElementsTimeout": 0,
+                                                                      "UseStepWaitOnElementsTimout": false,
+                                                                      "WaitOnElements": false,
+                                                                      "SearchByImageFirst": 0,
+                                                                      "TestName": "RelatiePagina_Kind 1",
+                                                                      "TestPath": "04 - Test Blocks\\02 - UI check\\RelatiePagina_Kind 1.tstest",
+                                                                      "TestUniqueId": "cd56768f-b03f-4fdb-a6f9-b0ae8ab1ee36",
+                                                                      "Pause": 0,
+                                                                      "RunsAgainstVersion": "",
+                                                                      "Constraints": {
+                                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                                        "__value": {
+                                                                          "ConstraintValues": {}
+                                                                        }
+                                                                      },
+                                                                      "Elements": {},
+                                                                      "StepType": 4,
+                                                                      "LogMessageOnFailure": "",
+                                                                      "EditorType": "",
+                                                                      "DataBindingExpressions": {}
+                                                                    }
+                                                                  },
+                                                                  "Enabled": true,
+                                                                  "Order": 3,
+                                                                  "Id": "",
+                                                                  "StepState": 0,
+                                                                  "ContinueOnFailure": true,
+                                                                  "StepImageKey": "RelatiePagina_Kinderen uitgebreiduxhhmme1.my2",
+                                                                  "QcId": 0,
+                                                                  "QcVersionStamp": 0,
+                                                                  "Version": 200
+                                                                }
+                                                              },
+                                                              {
+                                                                "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                                                "__value": {
+                                                                  "Runtime ID": "674dc29a-3bd8-48b3-9ef5-64297627efae",
+                                                                  "Description": "Execute test 'RelatiePagina_Kind 1.tstest'",
+                                                                  "CustomDescription": "Controle op \"Kind 4\"",
+                                                                  "Step": {
+                                                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+                                                                    "__value": {
+                                                                      "WaitOnElementsTimeout": 0,
+                                                                      "UseStepWaitOnElementsTimout": false,
+                                                                      "WaitOnElements": false,
+                                                                      "SearchByImageFirst": 0,
+                                                                      "TestName": "RelatiePagina_Kind 1",
+                                                                      "TestPath": "04 - Test Blocks\\02 - UI check\\RelatiePagina_Kind 1.tstest",
+                                                                      "TestUniqueId": "cd56768f-b03f-4fdb-a6f9-b0ae8ab1ee36",
+                                                                      "Pause": 0,
+                                                                      "RunsAgainstVersion": "",
+                                                                      "Constraints": {
+                                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                                        "__value": {
+                                                                          "ConstraintValues": {}
+                                                                        }
+                                                                      },
+                                                                      "Elements": {},
+                                                                      "StepType": 4,
+                                                                      "LogMessageOnFailure": "",
+                                                                      "EditorType": "",
+                                                                      "DataBindingExpressions": {}
+                                                                    }
+                                                                  },
+                                                                  "Enabled": true,
+                                                                  "Order": 4,
+                                                                  "Id": "",
+                                                                  "StepState": 0,
+                                                                  "ContinueOnFailure": true,
+                                                                  "StepImageKey": "RelatiePagina_Kinderen uitgebreid0mmdf5ct.3qc",
+                                                                  "QcId": 0,
+                                                                  "QcVersionStamp": 0,
+                                                                  "Version": 200
+                                                                }
+                                                              },
+                                                              {
+                                                                "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                                                "__value": {
+                                                                  "Runtime ID": "8d2d0231-269a-45cc-af0d-42d8dcd19f64",
+                                                                  "Description": "Execute test 'RelatiePagina_Kind 1.tstest'",
+                                                                  "CustomDescription": "Controle op \"Kind 5\"",
+                                                                  "Step": {
+                                                                    "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+                                                                    "__value": {
+                                                                      "WaitOnElementsTimeout": 0,
+                                                                      "UseStepWaitOnElementsTimout": false,
+                                                                      "WaitOnElements": false,
+                                                                      "SearchByImageFirst": 0,
+                                                                      "TestName": "RelatiePagina_Kind 1",
+                                                                      "TestPath": "04 - Test Blocks\\02 - UI check\\RelatiePagina_Kind 1.tstest",
+                                                                      "TestUniqueId": "cd56768f-b03f-4fdb-a6f9-b0ae8ab1ee36",
+                                                                      "Pause": 0,
+                                                                      "RunsAgainstVersion": "",
+                                                                      "Constraints": {
+                                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                                        "__value": {
+                                                                          "ConstraintValues": {}
+                                                                        }
+                                                                      },
+                                                                      "Elements": {},
+                                                                      "StepType": 4,
+                                                                      "LogMessageOnFailure": "",
+                                                                      "EditorType": "",
+                                                                      "DataBindingExpressions": {}
+                                                                    }
+                                                                  },
+                                                                  "Enabled": true,
+                                                                  "Order": 5,
+                                                                  "Id": "",
+                                                                  "StepState": 0,
+                                                                  "ContinueOnFailure": true,
+                                                                  "StepImageKey": "RelatiePagina_Kinderen uitgebreidsrkiccdz.4kr",
+                                                                  "QcId": 0,
+                                                                  "QcVersionStamp": 0,
+                                                                  "Version": 200
+                                                                }
+                                                              }
+                                                            ]
+                                                          },
+                                                          "Description": "IF ({0})",
+                                                          "CustomDescription": null,
+                                                          "Order": 0,
+                                                          "Branch": 1,
+                                                          "Visible": true
+                                                        }
+                                                      },
+                                                      "0": {
+                                                        "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                                        "__value": {
+                                                          "StepList": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                                            "__value": []
+                                                          },
+                                                          "Description": "ELSE",
+                                                          "CustomDescription": null,
+                                                          "Order": 1,
+                                                          "Branch": 0,
+                                                          "Visible": true
+                                                        }
+                                                      }
+                                                    },
+                                                    "UseStepWaitOnElementsTimout": false,
+                                                    "WaitOnElementsTimeout": 0,
+                                                    "WaitOnElements": false,
+                                                    "SearchByImageFirst": 0,
+                                                    "Pause": 0,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {
+                                                      "textTarget": {
+                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                        "__value": {
+                                                          "Name": "textTarget",
+                                                          "Region": null,
+                                                          "Page": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                            "__value": {
+                                                              "Path": "http://interntestaccept.cts/",
+                                                              "Query": "",
+                                                              "BaseUrl": "",
+                                                              "EquivalentUrls": [],
+                                                              "Fragment": "",
+                                                              "Title": "Intern - testaccept",
+                                                              "CompareMode": 2,
+                                                              "AlwaysUseTitleInCompare": false,
+                                                              "FriendlyName": "InternTestAccept"
+                                                            }
+                                                          },
+                                                          "Frame": null,
+                                                          "FindExpression": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                                            "__value": {
+                                                              "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                                                              "NodeKind": 4,
+                                                              "TechnologyType": 1,
+                                                              "Name": "NR_Kinderen_AantalKinderenVeld",
+                                                              "FindExpressions": [
+                                                                {
+                                                                  "Key": 1,
+                                                                  "Value": {
+                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                    "__value": {
+                                                                      "Clauses": [
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "propcode=24"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "Constraints": [],
+                                                                      "ChainStops": []
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                                                              "ImageSearchClauses": [],
+                                                              "DataBindingExpressions": {}
+                                                            }
+                                                          },
+                                                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                                                          "IsIndependent": false,
+                                                          "DomStateKey": "",
+                                                          "TechnologyType": 1,
+                                                          "Version": 200
+                                                        }
+                                                      }
+                                                    },
+                                                    "StepType": 8,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 1,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": false,
+                                                "StepImageKey": "RelatiePagina_Kinderen uitgebreidfpiwjm5i.jiv",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            },
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "346a6aca-c429-428f-af0e-b7db21570b76",
+                                                "Description": "Verify 'TextContent' 'Contains' '4' on 'NR_Kinderen_AantalKinderenVeld'",
+                                                "CustomDescription": null,
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+                                                  "__value": {
+                                                    "Verification": {
+                                                      "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+                                                      "__value": {
+                                                        "CompareType": 2,
+                                                        "SegmentType": 3,
+                                                        "ExpectedString": "4",
+                                                        "DataBindVariableName": null,
+                                                        "Timeout": 30000,
+                                                        "CheckInterval": 500,
+                                                        "EnsureStateIsCurrent": false,
+                                                        "Pause": 0,
+                                                        "WaitOnElementsTimeout": 30000,
+                                                        "SearchByImageFirst": 0,
+                                                        "UseStepWaitOnElementsTimout": false,
+                                                        "WaitOnElements": true,
+                                                        "RunsAgainstVersion": "",
+                                                        "Constraints": {
+                                                          "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                          "__value": {
+                                                            "ConstraintValues": {}
+                                                          }
+                                                        },
+                                                        "Elements": {
+                                                          "textTarget": {
+                                                            "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                            "__value": {
+                                                              "Name": "textTarget",
+                                                              "Region": null,
+                                                              "Page": {
+                                                                "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                                "__value": {
+                                                                  "Path": "http://interntestaccept.cts/",
+                                                                  "Query": "",
+                                                                  "BaseUrl": "",
+                                                                  "EquivalentUrls": [],
+                                                                  "Fragment": "",
+                                                                  "Title": "Intern - testaccept",
+                                                                  "CompareMode": 2,
+                                                                  "AlwaysUseTitleInCompare": false,
+                                                                  "FriendlyName": "InternTestAccept"
+                                                                }
+                                                              },
+                                                              "Frame": null,
+                                                              "FindExpression": {
+                                                                "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                                                "__value": {
+                                                                  "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                                                                  "NodeKind": 4,
+                                                                  "TechnologyType": 1,
+                                                                  "Name": "NR_Kinderen_AantalKinderenVeld",
+                                                                  "FindExpressions": [
+                                                                    {
+                                                                      "Key": 1,
+                                                                      "Value": {
+                                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                        "__value": {
+                                                                          "Clauses": [
+                                                                            {
+                                                                              "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                              "__value": {
+                                                                                "Clause": "propcode=24"
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "Constraints": [],
+                                                                          "ChainStops": []
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  ],
+                                                                  "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                                                                  "ImageSearchClauses": [],
+                                                                  "DataBindingExpressions": {}
+                                                                }
+                                                              },
+                                                              "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                                                              "IsIndependent": false,
+                                                              "DomStateKey": "",
+                                                              "TechnologyType": 1,
+                                                              "Version": 200
+                                                            }
+                                                          }
+                                                        },
+                                                        "StepType": 2,
+                                                        "LogMessageOnFailure": "",
+                                                        "EditorType": "",
+                                                        "DataBindingExpressions": {}
+                                                      }
+                                                    },
+                                                    "Branches": {
+                                                      "1": {
+                                                        "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                                        "__value": {
+                                                          "StepList": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                                            "__value": []
+                                                          },
+                                                          "Description": "IF ({0})",
+                                                          "CustomDescription": null,
+                                                          "Order": 0,
+                                                          "Branch": 1,
+                                                          "Visible": true
+                                                        }
+                                                      },
+                                                      "0": {
+                                                        "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                                        "__value": {
+                                                          "StepList": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                                            "__value": []
+                                                          },
+                                                          "Description": "ELSE",
+                                                          "CustomDescription": null,
+                                                          "Order": 1,
+                                                          "Branch": 0,
+                                                          "Visible": true
+                                                        }
+                                                      }
+                                                    },
+                                                    "UseStepWaitOnElementsTimout": false,
+                                                    "WaitOnElementsTimeout": 0,
+                                                    "WaitOnElements": false,
+                                                    "SearchByImageFirst": 0,
+                                                    "Pause": 0,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {
+                                                      "textTarget": {
+                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                        "__value": {
+                                                          "Name": "textTarget",
+                                                          "Region": null,
+                                                          "Page": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                            "__value": {
+                                                              "Path": "http://interntestaccept.cts/",
+                                                              "Query": "",
+                                                              "BaseUrl": "",
+                                                              "EquivalentUrls": [],
+                                                              "Fragment": "",
+                                                              "Title": "Intern - testaccept",
+                                                              "CompareMode": 2,
+                                                              "AlwaysUseTitleInCompare": false,
+                                                              "FriendlyName": "InternTestAccept"
+                                                            }
+                                                          },
+                                                          "Frame": null,
+                                                          "FindExpression": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                                            "__value": {
+                                                              "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                                                              "NodeKind": 4,
+                                                              "TechnologyType": 1,
+                                                              "Name": "NR_Kinderen_AantalKinderenVeld",
+                                                              "FindExpressions": [
+                                                                {
+                                                                  "Key": 1,
+                                                                  "Value": {
+                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                    "__value": {
+                                                                      "Clauses": [
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "propcode=24"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "Constraints": [],
+                                                                      "ChainStops": []
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                                                              "ImageSearchClauses": [],
+                                                              "DataBindingExpressions": {}
+                                                            }
+                                                          },
+                                                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                                                          "IsIndependent": false,
+                                                          "DomStateKey": "",
+                                                          "TechnologyType": 1,
+                                                          "Version": 200
+                                                        }
+                                                      }
+                                                    },
+                                                    "StepType": 8,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 2,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": false,
+                                                "StepImageKey": "RelatiePagina_Kinderen uitgebreidetzhs2rl.3jd",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            },
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "1eb74d52-b064-449f-82d2-d321d7a3c192",
+                                                "Description": "Verify 'TextContent' 'Contains' '3' on 'NR_Kinderen_AantalKinderenVeld'",
+                                                "CustomDescription": null,
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+                                                  "__value": {
+                                                    "Verification": {
+                                                      "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+                                                      "__value": {
+                                                        "CompareType": 2,
+                                                        "SegmentType": 3,
+                                                        "ExpectedString": "3",
+                                                        "DataBindVariableName": null,
+                                                        "Timeout": 30000,
+                                                        "CheckInterval": 500,
+                                                        "EnsureStateIsCurrent": false,
+                                                        "Pause": 0,
+                                                        "WaitOnElementsTimeout": 30000,
+                                                        "SearchByImageFirst": 0,
+                                                        "UseStepWaitOnElementsTimout": false,
+                                                        "WaitOnElements": true,
+                                                        "RunsAgainstVersion": "",
+                                                        "Constraints": {
+                                                          "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                          "__value": {
+                                                            "ConstraintValues": {}
+                                                          }
+                                                        },
+                                                        "Elements": {
+                                                          "textTarget": {
+                                                            "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                            "__value": {
+                                                              "Name": "textTarget",
+                                                              "Region": null,
+                                                              "Page": {
+                                                                "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                                "__value": {
+                                                                  "Path": "http://interntestaccept.cts/",
+                                                                  "Query": "",
+                                                                  "BaseUrl": "",
+                                                                  "EquivalentUrls": [],
+                                                                  "Fragment": "",
+                                                                  "Title": "Intern - testaccept",
+                                                                  "CompareMode": 2,
+                                                                  "AlwaysUseTitleInCompare": false,
+                                                                  "FriendlyName": "InternTestAccept"
+                                                                }
+                                                              },
+                                                              "Frame": null,
+                                                              "FindExpression": {
+                                                                "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                                                "__value": {
+                                                                  "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                                                                  "NodeKind": 4,
+                                                                  "TechnologyType": 1,
+                                                                  "Name": "NR_Kinderen_AantalKinderenVeld",
+                                                                  "FindExpressions": [
+                                                                    {
+                                                                      "Key": 1,
+                                                                      "Value": {
+                                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                        "__value": {
+                                                                          "Clauses": [
+                                                                            {
+                                                                              "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                              "__value": {
+                                                                                "Clause": "propcode=24"
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "Constraints": [],
+                                                                          "ChainStops": []
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  ],
+                                                                  "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                                                                  "ImageSearchClauses": [],
+                                                                  "DataBindingExpressions": {}
+                                                                }
+                                                              },
+                                                              "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                                                              "IsIndependent": false,
+                                                              "DomStateKey": "",
+                                                              "TechnologyType": 1,
+                                                              "Version": 200
+                                                            }
+                                                          }
+                                                        },
+                                                        "StepType": 2,
+                                                        "LogMessageOnFailure": "",
+                                                        "EditorType": "",
+                                                        "DataBindingExpressions": {}
+                                                      }
+                                                    },
+                                                    "Branches": {
+                                                      "1": {
+                                                        "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                                        "__value": {
+                                                          "StepList": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                                            "__value": []
+                                                          },
+                                                          "Description": "IF ({0})",
+                                                          "CustomDescription": null,
+                                                          "Order": 0,
+                                                          "Branch": 1,
+                                                          "Visible": true
+                                                        }
+                                                      },
+                                                      "0": {
+                                                        "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                                        "__value": {
+                                                          "StepList": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                                            "__value": []
+                                                          },
+                                                          "Description": "ELSE",
+                                                          "CustomDescription": null,
+                                                          "Order": 1,
+                                                          "Branch": 0,
+                                                          "Visible": true
+                                                        }
+                                                      }
+                                                    },
+                                                    "UseStepWaitOnElementsTimout": false,
+                                                    "WaitOnElementsTimeout": 0,
+                                                    "WaitOnElements": false,
+                                                    "SearchByImageFirst": 0,
+                                                    "Pause": 0,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {
+                                                      "textTarget": {
+                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                        "__value": {
+                                                          "Name": "textTarget",
+                                                          "Region": null,
+                                                          "Page": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                            "__value": {
+                                                              "Path": "http://interntestaccept.cts/",
+                                                              "Query": "",
+                                                              "BaseUrl": "",
+                                                              "EquivalentUrls": [],
+                                                              "Fragment": "",
+                                                              "Title": "Intern - testaccept",
+                                                              "CompareMode": 2,
+                                                              "AlwaysUseTitleInCompare": false,
+                                                              "FriendlyName": "InternTestAccept"
+                                                            }
+                                                          },
+                                                          "Frame": null,
+                                                          "FindExpression": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                                            "__value": {
+                                                              "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                                                              "NodeKind": 4,
+                                                              "TechnologyType": 1,
+                                                              "Name": "NR_Kinderen_AantalKinderenVeld",
+                                                              "FindExpressions": [
+                                                                {
+                                                                  "Key": 1,
+                                                                  "Value": {
+                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                    "__value": {
+                                                                      "Clauses": [
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "propcode=24"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "Constraints": [],
+                                                                      "ChainStops": []
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                                                              "ImageSearchClauses": [],
+                                                              "DataBindingExpressions": {}
+                                                            }
+                                                          },
+                                                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                                                          "IsIndependent": false,
+                                                          "DomStateKey": "",
+                                                          "TechnologyType": 1,
+                                                          "Version": 200
+                                                        }
+                                                      }
+                                                    },
+                                                    "StepType": 8,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 3,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": false,
+                                                "StepImageKey": "RelatiePagina_Kinderen uitgebreidxd4bvagz.tue",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            },
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "1c0c8174-b0f4-47a6-ac5d-09c7cd443b49",
+                                                "Description": "Verify 'TextContent' 'Contains' '2' on 'NR_Kinderen_AantalKinderenVeld'",
+                                                "CustomDescription": null,
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+                                                  "__value": {
+                                                    "Verification": {
+                                                      "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+                                                      "__value": {
+                                                        "CompareType": 2,
+                                                        "SegmentType": 3,
+                                                        "ExpectedString": "2",
+                                                        "DataBindVariableName": null,
+                                                        "Timeout": 30000,
+                                                        "CheckInterval": 500,
+                                                        "EnsureStateIsCurrent": false,
+                                                        "Pause": 0,
+                                                        "WaitOnElementsTimeout": 30000,
+                                                        "SearchByImageFirst": 0,
+                                                        "UseStepWaitOnElementsTimout": false,
+                                                        "WaitOnElements": true,
+                                                        "RunsAgainstVersion": "",
+                                                        "Constraints": {
+                                                          "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                          "__value": {
+                                                            "ConstraintValues": {}
+                                                          }
+                                                        },
+                                                        "Elements": {
+                                                          "textTarget": {
+                                                            "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                            "__value": {
+                                                              "Name": "textTarget",
+                                                              "Region": null,
+                                                              "Page": {
+                                                                "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                                "__value": {
+                                                                  "Path": "http://interntestaccept.cts/",
+                                                                  "Query": "",
+                                                                  "BaseUrl": "",
+                                                                  "EquivalentUrls": [],
+                                                                  "Fragment": "",
+                                                                  "Title": "Intern - testaccept",
+                                                                  "CompareMode": 2,
+                                                                  "AlwaysUseTitleInCompare": false,
+                                                                  "FriendlyName": "InternTestAccept"
+                                                                }
+                                                              },
+                                                              "Frame": null,
+                                                              "FindExpression": {
+                                                                "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                                                "__value": {
+                                                                  "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                                                                  "NodeKind": 4,
+                                                                  "TechnologyType": 1,
+                                                                  "Name": "NR_Kinderen_AantalKinderenVeld",
+                                                                  "FindExpressions": [
+                                                                    {
+                                                                      "Key": 1,
+                                                                      "Value": {
+                                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                        "__value": {
+                                                                          "Clauses": [
+                                                                            {
+                                                                              "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                              "__value": {
+                                                                                "Clause": "propcode=24"
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "Constraints": [],
+                                                                          "ChainStops": []
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  ],
+                                                                  "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                                                                  "ImageSearchClauses": [],
+                                                                  "DataBindingExpressions": {}
+                                                                }
+                                                              },
+                                                              "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                                                              "IsIndependent": false,
+                                                              "DomStateKey": "",
+                                                              "TechnologyType": 1,
+                                                              "Version": 200
+                                                            }
+                                                          }
+                                                        },
+                                                        "StepType": 2,
+                                                        "LogMessageOnFailure": "",
+                                                        "EditorType": "",
+                                                        "DataBindingExpressions": {}
+                                                      }
+                                                    },
+                                                    "Branches": {
+                                                      "1": {
+                                                        "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                                        "__value": {
+                                                          "StepList": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                                            "__value": []
+                                                          },
+                                                          "Description": "IF ({0})",
+                                                          "CustomDescription": null,
+                                                          "Order": 0,
+                                                          "Branch": 1,
+                                                          "Visible": true
+                                                        }
+                                                      },
+                                                      "0": {
+                                                        "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                                        "__value": {
+                                                          "StepList": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                                            "__value": []
+                                                          },
+                                                          "Description": "ELSE",
+                                                          "CustomDescription": null,
+                                                          "Order": 1,
+                                                          "Branch": 0,
+                                                          "Visible": true
+                                                        }
+                                                      }
+                                                    },
+                                                    "UseStepWaitOnElementsTimout": false,
+                                                    "WaitOnElementsTimeout": 0,
+                                                    "WaitOnElements": false,
+                                                    "SearchByImageFirst": 0,
+                                                    "Pause": 0,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {
+                                                      "textTarget": {
+                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                        "__value": {
+                                                          "Name": "textTarget",
+                                                          "Region": null,
+                                                          "Page": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                            "__value": {
+                                                              "Path": "http://interntestaccept.cts/",
+                                                              "Query": "",
+                                                              "BaseUrl": "",
+                                                              "EquivalentUrls": [],
+                                                              "Fragment": "",
+                                                              "Title": "Intern - testaccept",
+                                                              "CompareMode": 2,
+                                                              "AlwaysUseTitleInCompare": false,
+                                                              "FriendlyName": "InternTestAccept"
+                                                            }
+                                                          },
+                                                          "Frame": null,
+                                                          "FindExpression": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                                            "__value": {
+                                                              "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                                                              "NodeKind": 4,
+                                                              "TechnologyType": 1,
+                                                              "Name": "NR_Kinderen_AantalKinderenVeld",
+                                                              "FindExpressions": [
+                                                                {
+                                                                  "Key": 1,
+                                                                  "Value": {
+                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                    "__value": {
+                                                                      "Clauses": [
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "propcode=24"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "Constraints": [],
+                                                                      "ChainStops": []
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                                                              "ImageSearchClauses": [],
+                                                              "DataBindingExpressions": {}
+                                                            }
+                                                          },
+                                                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                                                          "IsIndependent": false,
+                                                          "DomStateKey": "",
+                                                          "TechnologyType": 1,
+                                                          "Version": 200
+                                                        }
+                                                      }
+                                                    },
+                                                    "StepType": 8,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 4,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": false,
+                                                "StepImageKey": "RelatiePagina_Kinderen uitgebreidkui4uax3.qlc",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            },
+                                            {
+                                              "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                                              "__value": {
+                                                "Runtime ID": "f5a3399d-f3ed-4a6d-9c22-7803160ffa63",
+                                                "Description": "Verify 'TextContent' 'Contains' '1' on 'NR_Kinderen_AantalKinderenVeld'",
+                                                "CustomDescription": null,
+                                                "Step": {
+                                                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.IfThenElseLogicalDescriptor",
+                                                  "__value": {
+                                                    "Verification": {
+                                                      "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+                                                      "__value": {
+                                                        "CompareType": 2,
+                                                        "SegmentType": 3,
+                                                        "ExpectedString": "1",
+                                                        "DataBindVariableName": null,
+                                                        "Timeout": 30000,
+                                                        "CheckInterval": 500,
+                                                        "EnsureStateIsCurrent": false,
+                                                        "Pause": 0,
+                                                        "WaitOnElementsTimeout": 30000,
+                                                        "SearchByImageFirst": 0,
+                                                        "UseStepWaitOnElementsTimout": false,
+                                                        "WaitOnElements": true,
+                                                        "RunsAgainstVersion": "",
+                                                        "Constraints": {
+                                                          "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                          "__value": {
+                                                            "ConstraintValues": {}
+                                                          }
+                                                        },
+                                                        "Elements": {
+                                                          "textTarget": {
+                                                            "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                            "__value": {
+                                                              "Name": "textTarget",
+                                                              "Region": null,
+                                                              "Page": {
+                                                                "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                                "__value": {
+                                                                  "Path": "http://interntestaccept.cts/",
+                                                                  "Query": "",
+                                                                  "BaseUrl": "",
+                                                                  "EquivalentUrls": [],
+                                                                  "Fragment": "",
+                                                                  "Title": "Intern - testaccept",
+                                                                  "CompareMode": 2,
+                                                                  "AlwaysUseTitleInCompare": false,
+                                                                  "FriendlyName": "InternTestAccept"
+                                                                }
+                                                              },
+                                                              "Frame": null,
+                                                              "FindExpression": {
+                                                                "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                                                "__value": {
+                                                                  "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                                                                  "NodeKind": 4,
+                                                                  "TechnologyType": 1,
+                                                                  "Name": "NR_Kinderen_AantalKinderenVeld",
+                                                                  "FindExpressions": [
+                                                                    {
+                                                                      "Key": 1,
+                                                                      "Value": {
+                                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                        "__value": {
+                                                                          "Clauses": [
+                                                                            {
+                                                                              "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                              "__value": {
+                                                                                "Clause": "propcode=24"
+                                                                              }
+                                                                            }
+                                                                          ],
+                                                                          "Constraints": [],
+                                                                          "ChainStops": []
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  ],
+                                                                  "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                                                                  "ImageSearchClauses": [],
+                                                                  "DataBindingExpressions": {}
+                                                                }
+                                                              },
+                                                              "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                                                              "IsIndependent": false,
+                                                              "DomStateKey": "",
+                                                              "TechnologyType": 1,
+                                                              "Version": 200
+                                                            }
+                                                          }
+                                                        },
+                                                        "StepType": 2,
+                                                        "LogMessageOnFailure": "",
+                                                        "EditorType": "",
+                                                        "DataBindingExpressions": {}
+                                                      }
+                                                    },
+                                                    "Branches": {
+                                                      "1": {
+                                                        "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                                        "__value": {
+                                                          "StepList": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                                            "__value": []
+                                                          },
+                                                          "Description": "IF ({0})",
+                                                          "CustomDescription": null,
+                                                          "Order": 0,
+                                                          "Branch": 1,
+                                                          "Visible": true
+                                                        }
+                                                      },
+                                                      "0": {
+                                                        "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                                                        "__value": {
+                                                          "StepList": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                                                            "__value": []
+                                                          },
+                                                          "Description": "ELSE",
+                                                          "CustomDescription": null,
+                                                          "Order": 1,
+                                                          "Branch": 0,
+                                                          "Visible": true
+                                                        }
+                                                      }
+                                                    },
+                                                    "UseStepWaitOnElementsTimout": false,
+                                                    "WaitOnElementsTimeout": 0,
+                                                    "WaitOnElements": false,
+                                                    "SearchByImageFirst": 0,
+                                                    "Pause": 0,
+                                                    "RunsAgainstVersion": "",
+                                                    "Constraints": {
+                                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                                      "__value": {
+                                                        "ConstraintValues": {}
+                                                      }
+                                                    },
+                                                    "Elements": {
+                                                      "textTarget": {
+                                                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                                        "__value": {
+                                                          "Name": "textTarget",
+                                                          "Region": null,
+                                                          "Page": {
+                                                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                                            "__value": {
+                                                              "Path": "http://interntestaccept.cts/",
+                                                              "Query": "",
+                                                              "BaseUrl": "",
+                                                              "EquivalentUrls": [],
+                                                              "Fragment": "",
+                                                              "Title": "Intern - testaccept",
+                                                              "CompareMode": 2,
+                                                              "AlwaysUseTitleInCompare": false,
+                                                              "FriendlyName": "InternTestAccept"
+                                                            }
+                                                          },
+                                                          "Frame": null,
+                                                          "FindExpression": {
+                                                            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                                            "__value": {
+                                                              "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                                                              "NodeKind": 4,
+                                                              "TechnologyType": 1,
+                                                              "Name": "NR_Kinderen_AantalKinderenVeld",
+                                                              "FindExpressions": [
+                                                                {
+                                                                  "Key": 1,
+                                                                  "Value": {
+                                                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                                    "__value": {
+                                                                      "Clauses": [
+                                                                        {
+                                                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                                          "__value": {
+                                                                            "Clause": "propcode=24"
+                                                                          }
+                                                                        }
+                                                                      ],
+                                                                      "Constraints": [],
+                                                                      "ChainStops": []
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ],
+                                                              "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                                                              "ImageSearchClauses": [],
+                                                              "DataBindingExpressions": {}
+                                                            }
+                                                          },
+                                                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                                                          "IsIndependent": false,
+                                                          "DomStateKey": "",
+                                                          "TechnologyType": 1,
+                                                          "Version": 200
+                                                        }
+                                                      }
+                                                    },
+                                                    "StepType": 8,
+                                                    "LogMessageOnFailure": "",
+                                                    "EditorType": "",
+                                                    "DataBindingExpressions": {}
+                                                  }
+                                                },
+                                                "Enabled": true,
+                                                "Order": 5,
+                                                "Id": "",
+                                                "StepState": 0,
+                                                "ContinueOnFailure": false,
+                                                "StepImageKey": "RelatiePagina_Kinderen uitgebreidbecwpjmj.1fu",
+                                                "QcId": 0,
+                                                "QcVersionStamp": 0,
+                                                "Version": 200
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        "Description": "ELSE",
+                                        "CustomDescription": null,
+                                        "Order": 1,
+                                        "Branch": 0,
+                                        "Visible": true
+                                      }
+                                    }
+                                  },
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElementsTimeout": 0,
+                                  "WaitOnElements": false,
+                                  "SearchByImageFirst": 0,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {
+                                    "textTarget": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "textTarget",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "http://interntestaccept.cts/",
+                                            "Query": "",
+                                            "BaseUrl": "",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Intern - testaccept",
+                                            "CompareMode": 2,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "InternTestAccept"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "NR_Kinderen_AantalKinderenVeld",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "propcode=24"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": []
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                                            "ImageSearchClauses": [],
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 8,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 2,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "RelatiePagina_Kinderen uitgebreidsbs4mian.jap",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          }
+                        ]
+                      },
+                      "Description": "IF ({0})",
+                      "CustomDescription": null,
+                      "Order": 0,
+                      "Branch": 1,
+                      "Visible": true
+                    }
+                  },
+                  "0": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": []
+                      },
+                      "Description": "ELSE",
+                      "CustomDescription": null,
+                      "Order": 1,
+                      "Branch": 0,
+                      "Visible": true
+                    }
+                  }
+                },
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElementsTimeout": 0,
+                "WaitOnElements": false,
+                "SearchByImageFirst": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "verifyTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "verifyTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://interntestaccept.cts/",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Intern - testaccept",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "InternTestAccept"
+                        }
+                      },
+                      "Frame": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "Q4kS9LdsPkJcp+9w46bnGyLT400=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "NR_Kinderen_AantalKinderenVeld",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "propcode=24"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/span[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[6]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/select[1]",
+                          "ImageSearchClauses": [],
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 8,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "RelatiePagina_Kinderen uitgebreiddxql44ww.swj",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "AWI - Automatische Tests.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "",
+    "IsManual": false,
+    "ResourceFilePath": "04 - Test Blocks\\02 - UI check\\RelatiePagina_Kinderen uitgebreid.resx",
+    "ElementImageStoreFilePath": "04 - Test Blocks\\02 - UI check\\RelatiePagina_Kinderen uitgebreid.imgstore",
+    "HasCodeBehind": false,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "RelatiePagina_Kinderen uitgebreid",
+    "Owner": "",
+    "Path": "04 - Test Blocks\\02 - UI check\\RelatiePagina_Kinderen uitgebreid.tstest",
+    "Priority": 0,
+    "TestType": 0,
+    "UniqueId": "a2882f70-4d02-4c52-990b-fef1cf52bcae",
+    "Id": "a2882f70-4d02-4c52-990b-fef1cf52bcae",
+    "ProjectId": "9cb35a47-4738-4d8b-9045-6bcf0ee3c0d3",
+    "Version": 200
+  }
+}
